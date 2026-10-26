@@ -2,7 +2,7 @@
 # Set-Wallpaper.ps1
 # Downloads an image and sets it as the current user's wallpaper.
 
-$ImageUrl = "https://picsum.photos/1920/1080"
+$ImageUrl = 'https://raw.githubusercontent.com/NovaWebDeveloper/Script/main/pexels-codioful-7135028.jpg'
 $WallpaperFolder = Join-Path $env:LOCALAPPDATA "WallpaperProject"
 $WallpaperPath = Join-Path $WallpaperFolder "wallpaper.jpg"
 
